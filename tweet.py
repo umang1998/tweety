@@ -12,7 +12,7 @@ class Tweet:
         return self.filter_brands(self.filter_urls(self.data['text']))
 
     def filter_brands(self, text):
-        brands = ["@WarbyParker", "@Bonobos", "@Casper", "@Glossier", "@DollarShaveClub", "@Allbirds"]
+        brands = ["@for_umg"]
 
         for brand in brands:
             if (brand in text):
